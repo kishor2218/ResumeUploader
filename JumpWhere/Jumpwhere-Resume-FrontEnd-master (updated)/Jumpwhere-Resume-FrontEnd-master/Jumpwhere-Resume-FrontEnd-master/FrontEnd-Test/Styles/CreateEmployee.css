@@ -1,0 +1,82 @@
+/* Form Container */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #ffffff; /* Blue background color */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: #48bc00; /* White text color */
+}
+
+/* Label Styles */
+label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 18px; /* Increased font size */
+    color: #2ecc71; /* Green color for labels */
+}
+
+/* Input Styles */
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #2ecc71; /* Green border */
+    border-radius: 8px;
+    background-color: #ecf0f1; /* Light gray background color */
+    color: #333; /* Dark text color */
+}
+
+select {
+    height: 40px; /* Increased height */
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+    background-color: #e74c3c; /* Red background color */
+    color: #fff; /* White text color */
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+input[type="submit"]:hover {
+    background-color: #c0392b; /* Darker red on hover */
+    transform: scale(1.05); /* Scale on hover */
+    animation: fadeIn 0.5s ease; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    form {
+        max-width: 100%;
+    }
+}
+
+
+/* Static H1 Styles */
+h1 {
+    font-size: 2em;
+    background: linear-gradient(45deg, #3498db, #18b0d2, #54a3ad, #9ac6c2);
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+}
